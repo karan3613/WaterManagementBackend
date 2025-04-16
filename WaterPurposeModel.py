@@ -4,7 +4,6 @@ import numpy as np
 import joblib
 
 class WaterPurposeModel:
-
     def __init__(self):
         # Load the trained SVM model
         self.model_path = "models/svm_model.joblib"
